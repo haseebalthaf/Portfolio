@@ -1,0 +1,29 @@
+/* Font for Website */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+/* Aligning and decorating navigation bar and navigation items */
+.navbar {
+    font-family: 'Poppins';
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 35px;
+}
+
+.name-item {
+    color: white;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
