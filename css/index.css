@@ -19,13 +19,35 @@ hr {
 }
 
 .avatar-container {
-    border-radius: 50%;
     margin-top: 40px;
     margin-left: 100px;
+    border-radius: 50%;
     width: 128px;
     height: 128px;
 }
 
-h1 {
-    
+.first-content {
+    margin-left: 100px;
+}
+
+.social-container {
+    margin-left: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social-icon {
+    margin-right: 15px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.social-icon:hover {
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #333;
 }
