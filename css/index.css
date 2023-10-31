@@ -3,7 +3,29 @@
 
 /* Website body */
 html, body {
+    font-family: 'Poppins';
     padding: 0;
     margin: 0;
     background-color: #030711;
+    color: white;
+}
+
+hr {
+    width: 90%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    background: #333;
+}
+
+.avatar-container {
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 128px;
+    height: 128px;
+}
+
+h1 {
+    
 }

@@ -1,29 +1,49 @@
 /* Font for Website */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
-/* Aligning and decorating navigation bar and navigation items */
-.navbar {
-    font-family: 'Poppins';
-    font-size: 18px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 35px;
+/* Website body */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #030711;
 }
 
-.name-item {
-    color: white;
+/* Aligning and decorating navigation bar and navigation items */
+.navbar {
+  font-family: "Poppins";
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+}
+
+.logo-container {
+  display: flex;
+  margin-left: 200px;
 }
 
 .nav-container {
-    display: flex;
-    justify-content: flex-end;
+  margin-right: 200px;
 }
 
 .nav-item {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+  transition: 0.3s;
 }
 
+.nav-item:hover {
+  color: black;
+  background-color: white;
+  text-decoration: underline;
+}
 
+.nav-item:active {
+  color: black;
+  background-color: white;
+  text-decoration: underline;
+}
