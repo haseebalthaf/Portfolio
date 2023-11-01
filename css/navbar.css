@@ -19,16 +19,19 @@ body {
   padding: 5px 40px;
 }
 
+/* Placement of page logo */
 .logo-container {
   display: flex;
   margin-left: 200px;
   padding: 10px;
 }
 
+/* Navigation container, holding the navigation items */
 .nav-container {
   margin-right: 200px;
 }
 
+/* Items of navigation container */
 .nav-item {
   text-decoration: none;
   color: white;
@@ -37,11 +40,13 @@ body {
   transition: 0.3s;
 }
 
+/* Animations on hover for items */
 .nav-item:hover {
   color: black;
   background-color: white;
 }
 
+/* Active selector functionality */
 .nav-item.active {
   border: 1px solid white;
 }

@@ -11,6 +11,7 @@ body {
   color: white;
 }
 
+/* Styling horizontal rule */
 hr {
   width: 90%;
   border: 0;
@@ -19,11 +20,13 @@ hr {
   background: #333;
 }
 
+/* Container for the paragraph and potrait class */
 .content {
   display: flex;
   flex-direction: row;
 }
 
+/* Paragraph placement */
 .paragraph {
   margin-left: 100px;
 }
