@@ -40,11 +40,8 @@ body {
 .nav-item:hover {
   color: black;
   background-color: white;
-  text-decoration: underline;
 }
 
-.nav-item:active {
-  color: black;
-  background-color: white;
-  text-decoration: underline;
+.nav-item.active {
+  border: 1px solid white;
 }
