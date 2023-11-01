@@ -18,3 +18,19 @@ hr {
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
   background: #333;
 }
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.paragraph {
+  margin-left: 100px;
+}
+
+/* Aspect Ratio for the image below is 3:4 (W:H) */
+.portrait {
+  height: 700px;
+  width: 525px;
+  border-radius: 9px;
+}

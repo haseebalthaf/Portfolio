@@ -5,9 +5,9 @@
 html,
 body {
   font-family: "Poppins";
+  background-color: #030711;
   padding: 0;
   margin: 0;
-  background-color: #030711;
   color: white;
 }
 
