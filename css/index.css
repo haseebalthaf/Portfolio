@@ -29,6 +29,7 @@ hr {
 /* Paragraph placement */
 .paragraph {
   margin-left: 100px;
+  padding-right: 50px;
 }
 
 /* Aspect Ratio for the image below is 3:4 (W:H) */
