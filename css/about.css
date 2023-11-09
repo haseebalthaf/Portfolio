@@ -47,7 +47,7 @@ a {
 /* Styling and placement of social icons */
 .social-icon {
   margin-right: 15px;
-  padding: 5px;
+  padding: 10px;
   width: 30px;
   height: 30px;
 }
@@ -55,7 +55,7 @@ a {
 /* Animations on hover for social icons */
 .social-icon:hover {
   transition: 0.3s;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   background-color: #333;
 }
