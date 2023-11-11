@@ -1,0 +1,134 @@
+/* Font for Website */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+/* Website body */
+html,
+body {
+  overflow: hidden;
+  font-family: "Poppins";
+  padding: 0;
+  margin: 0;
+  background-color: white; 
+  color: black;
+}
+
+/* Navigation bar */
+/* Aligning and decorating navigation bar and navigation items */
+.navbar {
+  font-family: "Poppins";
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+  background-color: #030711; 
+}
+
+/* Placement of page logo */
+.logo-container {
+  display: flex;
+  margin-left: 200px;
+  padding: 10px;
+}
+
+/* Navigation container, holding the navigation items */
+.nav-container {
+  margin-right: 200px;
+}
+
+/* Items of navigation container */
+.nav-item {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+
+/* Animations on hover for items */
+.nav-item:hover {
+  color: black;
+  background-color: white;
+}
+
+/* Active selector functionality */
+.nav-item.active {
+  border: 1px solid white;
+}
+
+/* Footer */
+/* General styles for footer */
+footer {
+  font-family: "Poppins";
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #030711;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Footer container for text */
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Home Page */
+/* Container for the paragraph and potrait class */
+.home-content {
+  display: flex;
+  flex-direction: row;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+}
+
+/* About Page */
+/* Styling the avatar image and the placement */
+.avatar-container {
+  margin-top: 40px;
+  margin-left: 100px;
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Placement for the content */
+.about-content {
+  margin-left: 100px;
+}
+
+/* Socials link bar container placement */
+.social-container {
+  margin-left: 100px;
+}
+
+/* To remove the line */
+a {
+  text-decoration: none;
+}
+
+/* Styling and placement of social icons */
+.social-icon {
+  margin-right: 15px;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+/* Animations on hover for social icons */
+.social-icon:hover {
+  transition: 0.3s;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #D3D3D3;
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
