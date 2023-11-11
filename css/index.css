@@ -7,17 +7,8 @@ body {
   font-family: "Poppins";
   padding: 0;
   margin: 0;
-  background-color: #030711; 
-  color: white;
-}
-
-/* Styling horizontal rule */
-hr {
-  width: 90%;
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
-  background: #333;
+  background-color: white; 
+  color: black;
 }
 
 /* Container for the paragraph and potrait class */

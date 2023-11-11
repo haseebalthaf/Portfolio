@@ -5,19 +5,10 @@
 html,
 body {
   font-family: "Poppins";
-  background-color: #030711;
+  background-color: white;
   padding: 0;
   margin: 0;
-  color: white;
-}
-
-/* Styling horizontal rule */
-hr {
-  width: 90%;
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
-  background: #333;
+  color: black;
 }
 
 /* Styling the avatar image and the placement */
@@ -27,6 +18,7 @@ hr {
   border-radius: 50%;
   width: 128px;
   height: 128px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* Placement for the content */
@@ -57,5 +49,7 @@ a {
   transition: 0.3s;
   padding: 10px;
   border-radius: 5px;
-  background-color: #333;
+  background-color: #D3D3D3;
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
