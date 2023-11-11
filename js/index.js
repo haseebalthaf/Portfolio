@@ -1,1 +1,0 @@
-// TypeWritter effect for "js-welcome" class
