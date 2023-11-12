@@ -84,9 +84,30 @@ footer {
   flex-direction: row;
 }
 
-video {
+.image-container {
+  position: relative;
   height: 100%;
   width: 100%;
+}
+
+.image-container img {
+  opacity: 0.75;
+}
+
+.text-container {
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  left: 48%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  padding: 25px;
+  color: black;
+  text-align: center;
 }
 
 /* About Page */
