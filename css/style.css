@@ -152,7 +152,7 @@ a {
 }
 
 /* Blog Page */
-/*  */
+/* Adjusting the placement of the blog container. */
 .blog-container {
   margin: 10px;
   padding: 10px;
@@ -160,6 +160,7 @@ a {
   animation: fadeIn 2s;
 }
 
+/* Adding exceptional styles to the time element */
 .blog-container time {
   font-weight: normal;
   color: gray;
