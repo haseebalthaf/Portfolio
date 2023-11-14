@@ -1,6 +1,12 @@
 /* Font for Website */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
+/* Fade in animation */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 /* Website body */
 html,
 body {
@@ -78,36 +84,24 @@ footer {
 }
 
 /* Home Page */
-/* Container for the paragraph and potrait class */
-.home-content {
+/* Container for the home page title and the image */
+.home-container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-evenly;
+  animation: fadeIn 2s;
 }
 
-.image-container {
-  position: relative;
-  height: 100%;
-  width: 100%;
+/* Adjusting the home page title placement in a flexbox */
+.home-title {
+  font-size: 96px;
+  margin-top: 250px;
+  margin-left: 100px;
+  line-height: 100px;
 }
 
-.image-container img {
-  opacity: 0.75;
-}
-
-.text-container {
-  border-radius: 10px;
-  background-color: white;
-  position: absolute;
-  top: 30%;
-  left: 48%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  transform: translate(-50%, -50%);
-}
-
-.text {
-  padding: 25px;
-  color: black;
-  text-align: center;
+/* Adjusting the home page image placement in a flexbox */
+.home-img {
+  padding: 80px;
 }
 
 /* About Page */
@@ -119,16 +113,19 @@ footer {
   width: 128px;
   height: 128px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  animation: fadeIn 2s;
 }
 
 /* Placement for the content */
 .about-content {
   margin-left: 100px;
+  animation: fadeIn 2s;
 }
 
 /* Socials link bar container placement */
 .social-container {
   margin-left: 100px;
+  animation: fadeIn 2s;
 }
 
 /* To remove the line */
@@ -152,4 +149,18 @@ a {
   background-color: #D3D3D3;
   transform: scale(1.05);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Blog Page */
+/*  */
+.blog-container {
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  animation: fadeIn 2s;
+}
+
+.blog-container time {
+  font-weight: normal;
+  color: gray;
 }
